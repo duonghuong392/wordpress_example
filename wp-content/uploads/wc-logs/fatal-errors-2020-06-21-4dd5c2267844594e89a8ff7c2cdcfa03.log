@@ -1,0 +1,10 @@
+2020-06-21T09:20:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-helpers.php:99
+Stack trace:
+#0 F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-wordpress-importer.php(1007): ADI_Demos_Helpers::wp_get_http('https://demo.th...', 'F:/projects/wor...')
+#1 F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-wordpress-importer.php(961): WP_Import->fetch_remote_file('https://demo.th...', Array)
+#2 F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-wordpress-importer.php(698): WP_Import->process_attachment(Array, 'https://demo.th...')
+#3 F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-wordpress-importer.php(114): WP_Import->process_posts()
+#4 F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\demo-functions.php(1022): WP_Import->import('F:\\projects\ in F:\projects\wordpress_example\wp-content\plugins\access-demo-importer\inc\importers\class-helpers.php on line 99
+
+2020-06-21T09:27:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\projects\wordpress_example\wp-includes\Requests\Transport\cURL.php on line 463
+
