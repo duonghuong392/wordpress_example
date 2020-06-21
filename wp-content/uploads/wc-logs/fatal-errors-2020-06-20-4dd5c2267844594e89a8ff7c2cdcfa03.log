@@ -1,0 +1,26 @@
+2020-06-20T03:03:39+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in F:\projects\wordpress_example\wp-content\themes\hestia\inc\class-hestia-bootstrap-navwalker.php:129
+Stack trace:
+#0 F:\projects\wordpress_example\wp-includes\class-wp-walker.php(144): Hestia_Bootstrap_Navwalker->start_el('<li id="menu-it...', Object(WP_Post), 0, Array, ' id="menu-item-...')
+#1 F:\projects\wordpress_example\wp-content\themes\hestia\inc\class-hestia-bootstrap-navwalker.php(186): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#2 F:\projects\wordpress_example\wp-includes\class-wp-walker.php(244): Hestia_Bootstrap_Navwalker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#3 F:\projects\wordpress_example\wp-includes\post-template.php(1532): Walker->walk(Array, 0, Array, 30)
+#4 F:\projects\wordpress_example\wp-includes\post-template.php(1322): walk_page_tree(Array, 0, 30, Array)
+#5 F:\projects\wordpress_example\wp-includes\post-template.php(1451): wp_list_pages(Array)
+#6 F:\projects\wor in F:\projects\wordpress_example\wp-content\themes\hestia\inc\class-hestia-bootstrap-navwalker.php on line 129
+
+2020-06-20T04:20:09+00:00 CRITICAL Uncaught Error: Call to a member function isGroup() on null in F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe.php:39
+Stack trace:
+#0 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider.php(32): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\Framework\Controller\AbstractController.php(93): call_user_func_array(Array, Array)
+#3 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\Framework\Application\AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#4 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\WordPress in F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe.php on line 39
+
+2020-06-20T05:08:56+00:00 CRITICAL Uncaught Error: Call to a member function isGroup() on null in F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe.php:39
+Stack trace:
+#0 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider.php(32): Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe->display()
+#1 [internal function]: Nextend\SmartSlider3\Application\Frontend\Slider\ControllerPreRenderSlider->actionIframe()
+#2 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\Framework\Controller\AbstractController.php(93): call_user_func_array(Array, Array)
+#3 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\Framework\Application\AbstractApplicationType.php(88): Nextend\Framework\Controller\AbstractController->doAction('iframe', Array)
+#4 F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\WordPress in F:\projects\wordpress_example\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Application\Frontend\Slider\ViewIframe.php on line 39
+
